@@ -1,0 +1,84 @@
+body {
+  background-image: url("../images/background2.jpg");
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header p {
+  font-size: 20px;
+  margin: 10px 0 30px 0;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+form {
+  background-color: #222255aa;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.form-group {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  min-height: 2em;
+}
+
+.input-radio,
+.checkbox-input {
+  display: inline-block;
+  width: unset;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.block-label {
+  display: block;
+  padding: 0 5px;
+}
+
+textarea {
+  min-height: 100px;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #d1a1d1;
+  border: 1px solid #d1a1d1;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  color: #222255;
+  background-color: #c1b1c1;
+}
